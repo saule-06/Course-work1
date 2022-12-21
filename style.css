@@ -79,7 +79,7 @@ flex: 41.6% 0 0;
 .col-11{
  flex: 91.6% 0 0 ;
 }
-.content{
+/*.content{
   display: flex;
   margin: 30px;
   margin-top: -670px;
@@ -125,7 +125,7 @@ img{
 }
 .squeak{
   margin-right: 30px;
-}
+}*/
 header img{
   margin-top: -1px;
   height: 700px;
