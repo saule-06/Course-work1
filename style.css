@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .container{
   display: flex;
+  margin: 20px;
 
 }
 h1{
@@ -18,6 +19,7 @@ h1{
 }
 h2{
   font-size: 40px;
+  font-weight: 700;
 }
 h3{
   font-size: 32px;
@@ -29,6 +31,7 @@ h5{
   font-size: 16px;
   font-weight: 700;
   color: #156963;
+  line-height: 24px;
 }
 h6{
   font-size: 20px;
@@ -155,20 +158,53 @@ main{
 }
 #example-1{
   display: flex;
-  
+  margin-left: -20px;
 }
 #example-1 article{
   flex: 0 0 23%;
   display: flex;
   border: 1px solid #E0E0E0;
   margin: 15px;
+  
 }
-.container2{
+.example-card{
+  margin: 15px;
+}
+.example-image img{
+  margin-right: 15px;
+  width: 48px;
+  height: 48px;
+  margin-top: 6px;
+}
+.example-image h5{
+  margin-top: 10px;
+}
+.example-image{
   display: flex;
-  margin-top: 30px;
-
+  width: 150px;
+  height: 50px;
 }
-
+.example-text{
+  font-size: 10px;
+  font-weight: 400;
+  font-family:  'Montserrat';
+  line-height: 16px;
+  margin-top: 20px;
+}
+.example-image1{
+  display: flex;
+  width: 200;
+  height:50px;
+}
+.example-image1 img{
+  margin-right: 15px;
+  width: 48px;
+  height: 48px;
+  margin-top: 6px;
+}
+.example-image1 h5{
+  margin-top: 10px;
+}
 .section-text2{
   margin-top: 40px;
   margin-left: auto;
@@ -193,18 +229,19 @@ main{
 }
 .line{
   border: 1px solid #E0E0E0;
-  margin-top: -30px;
+  margin-top: -50px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .row{
   display: flex;
 }
 .row img{
   width: 200px;
-  height: 260px;
-  background: url(stephanie-harvey-T0inbt7nRME-unsplash.png);
+  height: 230px;
 }
-.container4{
-  display: flex;
+.card{
+  margin: 20px;
 }
 .section-card2 img{
   width: 500px;
@@ -229,4 +266,12 @@ main{
 .section-card1-text{
   margin: 20px;
   margin-top: -25px;
+}
+.container5{
+  display: flex;
+  margin: 20px;
+}
+.section-imag img{
+  width: 400px;
+  height: 360px;
 }
