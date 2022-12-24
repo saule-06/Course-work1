@@ -245,7 +245,7 @@ main{
 .row img{
   width: 227px;
   height: 230px;
-  margin-left: -17px;
+  margin-left: -20px;
   margin-top: -10px;
 }
 .card{
@@ -266,16 +266,17 @@ main{
 .section-card2 img{
   width: 513px;
   height: 680px;
-  margin: 20px;
+  
 }
 .cartichka{
   margin-top: 35px;
   display: flex;
 }
+
 .section-card1 img{
   width: 600px;
   height: 280px;
-  margin-top: 50px;
+  margin-top: 42px;
 }
 .section-card1 p{
   font-size: 18px;
@@ -285,7 +286,7 @@ main{
 }
 .section-card1-text{
   margin: 30px;
-  margin-right: 20px;
+  margin-right: 70px;
   
 }
 .section-card1-text h2{
@@ -294,10 +295,35 @@ main{
 .section-card1-text p{
   color: rgb(104, 98, 98);
 }
-.section-text p{
+.section-text{
+  margin: 55px;
+  margin-left: 90px;
+}
+.botton p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-family: 'Nunito' ;
+  font-style: normal;
   
 }
+.botton{
+  width: 152px;
+  height: 40px;
+  color: white;
+  background-color: #156963;
+  margin-top: 30px;
+}
+.section-cartockka{
+  display: flex;
+  background: #F3F4F6;
+  margin-top: 60px;
+  
+}
+.section-imag {
+  margin-right: 30px;
 
+}
 .section-imag img{
   width: 400px;
   height: 330px;
