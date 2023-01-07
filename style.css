@@ -26,6 +26,11 @@ h3{
 }
 h4{
   font-size: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
 }
 h5{
   font-size: 16px;
@@ -305,14 +310,16 @@ main{
   text-align: center;
   font-family: 'Nunito' ;
   font-style: normal;
-  
+  background-color: #156963; 
+  color: white;
+  padding: 10px;
 }
 .botton{
   width: 152px;
   height: 40px;
-  color: white;
-  background-color: #156963;
   margin-top: 30px;
+  border: 40px;
+  
 }
 .section-cartockka{
   display: flex;
@@ -334,4 +341,36 @@ main{
   margin-top: 80px;
   margin-left: -40px;
   margin-right: -40px;
+}
+.row1{
+  display: flex;
+  margin: 130px;
+  margin-top: 40px;
+}
+.col-3{
+  
+}
+.col-3 h4{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #156963;
+}
+.col-3 h5{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: black;
+}
+.footer-img1{
+  width: 234px;
+  height: 32px;
+}
+.footer-img2{
+  width: 51px;
+  height: 22px;
 }
